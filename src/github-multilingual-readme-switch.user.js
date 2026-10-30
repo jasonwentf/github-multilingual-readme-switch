@@ -1,19 +1,19 @@
 // ==UserScript==
 // @name         GitHub Multilingual README In-Place Switch (Stable Layout)
 // @name:zh-CN   GitHub 多语言 README 原地切换（稳定布局版）
-// @namespace    https://github.com/JasonWenTheFox/github-multilingual-readme-switch
-// @version      1.3.0
+// @namespace    https://github.com/jasonwentf/github-multilingual-readme-switch
+// @version      1.3.1
 // @description  Switch multilingual READMEs in place on GitHub repository home pages while preserving the original layout.
 // @description:zh-CN 点击 GitHub 仓库首页的多语言 README 链接时原地切换正文，并保持文件列表与右侧栏布局不变。
-// @author       233YUZI (original), JasonWenTheFox (layout fixes and maintenance)
+// @author       233YUZI (original), JasonWen (layout fixes and maintenance)
 // @license      MIT
-// @homepageURL  https://github.com/JasonWenTheFox/github-multilingual-readme-switch
-// @supportURL   https://github.com/JasonWenTheFox/github-multilingual-readme-switch/issues
+// @homepageURL  https://github.com/jasonwentf/github-multilingual-readme-switch
+// @supportURL   https://github.com/jasonwentf/github-multilingual-readme-switch/issues
 // @match        https://github.com/*
 // @grant        none
 // @run-at       document-start
-// @downloadURL  https://raw.githubusercontent.com/JasonWenTheFox/github-multilingual-readme-switch/main/src/github-multilingual-readme-switch.user.js
-// @updateURL    https://raw.githubusercontent.com/JasonWenTheFox/github-multilingual-readme-switch/main/src/github-multilingual-readme-switch.user.js
+// @downloadURL  https://raw.githubusercontent.com/jasonwentf/github-multilingual-readme-switch/main/src/github-multilingual-readme-switch.user.js
+// @updateURL    https://raw.githubusercontent.com/jasonwentf/github-multilingual-readme-switch/main/src/github-multilingual-readme-switch.user.js
 // ==/UserScript==
 
 /*
@@ -23,7 +23,7 @@
  * MIT License
  *
  * Original userscript copyright (c) 2026 233YUZI
- * Modifications copyright (c) 2026 JasonWenTheFox
+ * Modifications copyright (c) 2026 jasonwentf
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal

@@ -4,13 +4,13 @@
 
 A userscript that switches multilingual README files directly inside a GitHub repository home page without navigating to the standalone file view. The repository file list, README column, and right sidebar stay in place.
 
-> This is an independently maintained derivative of [233YUZI's original Greasy Fork script](https://greasyfork.org/scripts/580661), released under the MIT License. The stable-layout fix and current maintenance are by [JasonWenTheFox](https://github.com/JasonWenTheFox).
+> This is an independently maintained derivative of [233YUZI's original Greasy Fork script](https://greasyfork.org/scripts/580661), released under the MIT License. The stable-layout fix and current maintenance are by [JasonWen](https://github.com/jasonwentf).
 
 ## Install
 
 1. Install a userscript manager such as [Tampermonkey](https://www.tampermonkey.net/).
 2. If the original Greasy Fork script or an earlier local build is already enabled, disable it first. Running both versions at the same time can cause duplicate click handlers.
-3. [Install the stable version from GitHub](https://raw.githubusercontent.com/JasonWenTheFox/github-multilingual-readme-switch/main/src/github-multilingual-readme-switch.user.js).
+3. [Install the stable version from GitHub](https://raw.githubusercontent.com/jasonwentf/github-multilingual-readme-switch/main/src/github-multilingual-readme-switch.user.js).
 
 The original version remains available on [Greasy Fork](https://greasyfork.org/scripts/580661).
 
@@ -56,6 +56,6 @@ The automated tests cover alternate README switching, in-place English restorati
 ## Credits and license
 
 - Original userscript: [233YUZI](https://greasyfork.org/users/759046-233yuzi), version 1.2
-- Stable-layout fixes and maintenance: [JasonWenTheFox](https://github.com/JasonWenTheFox)
+- Stable-layout fixes and maintenance: [JasonWen](https://github.com/jasonwentf)
 
 Distributed under the [MIT License](./LICENSE). The original attribution and license notice are preserved in the userscript source and repository history.

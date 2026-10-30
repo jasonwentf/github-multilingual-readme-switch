@@ -4,13 +4,13 @@
 
 这是一个用户脚本：点击 GitHub 仓库首页中的多语言 README 链接时，直接在当前位置切换正文，不跳转到独立文件页；仓库文件列表、README 左侧内容列和右侧栏保持不变。
 
-> 本项目是 [233YUZI 原 Greasy Fork 脚本](https://greasyfork.org/zh-CN/scripts/580661)的独立维护派生版，继续采用 MIT 许可证。稳定布局修复及当前维护由 [JasonWenTheFox](https://github.com/JasonWenTheFox) 完成。
+> 本项目是 [233YUZI 原 Greasy Fork 脚本](https://greasyfork.org/zh-CN/scripts/580661)的独立维护派生版，继续采用 MIT 许可证。稳定布局修复及当前维护由 [JasonWen](https://github.com/jasonwentf) 完成。
 
 ## 安装
 
 1. 安装 [Tampermonkey 篡改猴](https://www.tampermonkey.net/)等用户脚本管理器。
 2. 如果已经启用了原 Greasy Fork 脚本或早期本地版本，请先将其停用；同时运行两个版本可能产生重复的点击拦截。
-3. [从 GitHub 安装稳定版](https://raw.githubusercontent.com/JasonWenTheFox/github-multilingual-readme-switch/main/src/github-multilingual-readme-switch.user.js)。
+3. [从 GitHub 安装稳定版](https://raw.githubusercontent.com/jasonwentf/github-multilingual-readme-switch/main/src/github-multilingual-readme-switch.user.js)。
 
 原始版本仍可在 [Greasy Fork](https://greasyfork.org/zh-CN/scripts/580661) 获取。
 
@@ -62,6 +62,6 @@ node --test tests/userscript.test.cjs
 ## 致谢与许可证
 
 - 原始用户脚本：[233YUZI](https://greasyfork.org/zh-CN/users/759046-233yuzi)，版本 1.2
-- 稳定布局修复与维护：[JasonWenTheFox](https://github.com/JasonWenTheFox)
+- 稳定布局修复与维护：[JasonWen](https://github.com/jasonwentf)
 
 本项目采用 [MIT License](./LICENSE)。用户脚本源码和仓库历史中均保留原作者署名及许可证声明。
